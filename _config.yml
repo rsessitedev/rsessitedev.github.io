@@ -82,3 +82,9 @@ defaults:
       type: "newsletters"
     values:
       layout: "newsletter"
+
+# RSS feeds in addition to "posts"
+feed:
+  collections:
+    newsletters:
+      path: 'feed/newsletters.xml'
